@@ -48,7 +48,7 @@
     position: relative;
 
     &::before{
-        content: "";;
+        content: "";
         position: absolute;
         background-color: var(--bg-color);
         border-radius: inherit;
@@ -61,7 +61,7 @@
         -webkit-background-clip: text;
         background-clip: text;
         color: transparent;
-        position: absolute;
+        position: relative;
         z-index: 1;
     }
 }
